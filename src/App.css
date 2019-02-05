@@ -1,0 +1,37 @@
+body {
+  background: #000;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  padding: 5%;
+}
+
+.App-title {
+  font-size: 26px;
+}
+
+giphy-input {
+ width: 100%;
+}
+
+.giphy {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+}
+
+.giphy-img {
+  width: 220px;
+  height: 220px;
+  border: 3px solid #fff;
+  object-fit: cover;
+  border-radius: 3px;
+  position: absolute;
+  
+}
